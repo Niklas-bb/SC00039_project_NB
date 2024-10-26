@@ -10,6 +10,7 @@ The nuclei are stained with a flourescent marker called DAPI. The nuclei should 
 The data to the the script is found in the folder called ICC_TEST_FOR_PYTHON. It contains the nd2 files called Figure1, FIgure2, Figure3. Each nd2 file contains 3 channels, but we will only focus on the first channel, channel0 since it contains the DAPI.
 
 ## Packages needed for the script
+```bash
 import argparse
 import os
 import numpy as np
@@ -20,6 +21,7 @@ from skimage.measure import label, regionprops_table
 from skimage.segmentation import clear_border
 from skimage.morphology import area_opening
 import pandas as pd
+```
 
 ## How to run the script
 ### Download the folder from github
