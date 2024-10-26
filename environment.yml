@@ -1,0 +1,22 @@
+name: Dapicount
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  # image processing
+  - scikit-image
+  - scipy
+  - skimage
+  # related to jupyter notebooks
+  - jupyterlab
+  - ipykernel
+  - stackview
+  # data handling and plotting
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  # pip packages
+  - pip:
+    - nd2
