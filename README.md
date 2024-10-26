@@ -29,6 +29,22 @@ Download the project files to your computer. You can do this by cloning the repo
 ```bash
 git clone 
 ```
+## Activate the environment
+I used miniconda3 to run script. DOwnload if you do not already have.
+
+## Environment Setup
+Conda environment is used. The provided environment.yml should include all packages required.
+
+### Step 1: To create the environment that will be used to install Jupyter Lab.
+```bash
+conda create -y -n dapicount-env -c conda-forge python=3.9
+```
+### Step 2: Activate environment
+Activate the environment named dapicount-env:
+
+```bash
+conda activate dapicount-env
+```
 
 ## Running the code 
 I run the code using the following command in Git bash:
