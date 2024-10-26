@@ -27,7 +27,7 @@ import pandas as pd
 ### Download the folder from github
 Download the project files to your computer. You can do this by cloning the repository or downloading it as a zip file.
 ```bash
-git clone 
+git clone https://github.com/Niklas-bb/SC00039_project_NB.git
 ```
 ## Activate the environment
 I used miniconda3 to run script. DOwnload if you do not already have.
