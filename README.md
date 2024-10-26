@@ -30,9 +30,13 @@ git clone
 
 ## Running the code 
 I run the code using the following command in Git bash:
+```bash
 python DAPIcountfinal.py --folder "C:\path\to\your\nd2\files"
-
-In my case the command to run the script is: python DAPIcountfinal.py --folder "C:\Users\Niklas\OneDrive\Dokument\Sahlgrenska\Courses\python_for_biologists_SC00039\SC00039_project_NB\ICC_TEST_FOR_PYTHON"
+```
+In my case the command to run the script is: 
+```bash
+python DAPIcountfinal.py --folder "C:\Users\Niklas\OneDrive\Dokument\Sahlgrenska\Courses\python_for_biologists_SC00039\SC00039_project_NB\ICC_TEST_FOR_PYTHON"
+```
 But make sure you change the path to your folder. 
 
 
