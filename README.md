@@ -37,7 +37,7 @@ Conda environment is used. The provided environment.yml should include all packa
 
 ### Step 1: To create the environment that will be used to install Jupyter Lab.
 ```bash
-conda create -y -n dapicount-env -c conda-forge python=3.9
+conda create -y -n Dapicount-env -c conda-forge python=3.9
 ```
 ### Step 2: Activate environment
 Activate the environment named Dapicount environment:
