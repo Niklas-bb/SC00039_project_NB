@@ -40,10 +40,10 @@ Conda environment is used. The provided environment.yml should include all packa
 conda create -y -n dapicount-env -c conda-forge python=3.9
 ```
 ### Step 2: Activate environment
-Activate the environment named dapicount-env:
+Activate the environment named Dapicount environment:
 
 ```bash
-conda activate dapicount-env
+conda activate Dapicount
 ```
 
 ## Running the code 
