@@ -7,7 +7,6 @@ dependencies:
   # image processing
   - scikit-image
   - scipy
-  - skimage
   # related to jupyter notebooks
   - jupyterlab
   - ipykernel
